@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+   
+    "preview": "vite preview",
+    "build:client": "npm --prefix client install && npm --prefix client run build"
   },
   "dependencies": {
     "lucide-react": "^0.460.0",
